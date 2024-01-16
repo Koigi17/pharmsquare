@@ -1,0 +1,16 @@
+<?php
+$servername="lacalhost";
+$username="root";
+$password="";
+$database="login-db";
+
+$connection=mysqli_connect('localhost','root','','login-db');
+
+
+if($conn){
+    echo"success";
+}
+else{
+    die("Error". mysqli_connect_error());
+}
+?>
